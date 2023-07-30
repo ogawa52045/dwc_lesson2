@@ -13,3 +13,42 @@
  *= require_tree .
  *= require_self
  */
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Top_page, .Books, .Next_book, .Show_page,.Edit_page {
+  margin: 20px;
+}
+
+.Books {
+  margin: 20px;
+}
+
+.table {
+  width: 80%;
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+}
+
+th, td {
+  height: 30px;
+}
+
+.New_book {
+  margin: 20px;
+}
+
+.title_box, .body-box {
+  margin-bottom: 20px;
+}
+
+.flash_message {
+  color: green;
+  margin: 30px;
+}
